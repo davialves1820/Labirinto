@@ -9,7 +9,7 @@ Esta atividade consciste em um labirinto desenvolvido em Python, utilizando a bi
 - main_maze.py: Arquivo principal que cria um labirinto;
 - labirinto1.txt: Arquivo que tem os dígitos binários base para a construção do labirinto
 
-## 🖥️ Execução do código
+## ⚙️ Execução do código
 
 ```
 python main_maze.py
