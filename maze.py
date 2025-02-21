@@ -149,7 +149,7 @@ class Maze:
     def backtracking(self):
         current = self.get_init_pos_player() # Salva a posição inicial do jogador
         stack = [current] # Cria a pilha e adiciona current nela
-        visited = set() # Cria uma variável para armazenar todas as posições que o jogador passou
+        visited = [] # Cria uma variável para armazenar todas as posições que o jogador passou
 
         while stack:
             point = stack[-1] # Pega do topo da pilha um ponto que ainda não foi validado
@@ -159,7 +159,7 @@ class Maze:
                 print("O ponto foi encontrado.")
                 return True
             
-            visited.add(point) # Adiciona o ponto na lista de pontos já visitados
+            visited.append(point) # Adiciona o ponto na lista de pontos já visitados
 
             # Vetor com os pontos vizinhos de point
             neighbors = [(point[0] - 1, point [1]), (point[0] + 1, point[1]),
