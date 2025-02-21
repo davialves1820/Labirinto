@@ -16,7 +16,7 @@ python main_maze.py
 ```
 
 ## 🧠 Lógica do Backtracking
-A função backtracking consciste nos seguintes passos:
+**A função backtracking consciste nos seguintes passos:**
 - Criar uma nova pilha.
 - Localizar a posição inicial do jogador.
 - Inserir essa posição na pilha.
