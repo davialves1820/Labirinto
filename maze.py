@@ -168,6 +168,7 @@ class Maze:
             find = False # Variável auxiliar que nos informa se foi encontrado algum vizinho livre
 
             for neighbor in neighbors:
+                # Verifica se a posição é válida, se está livre e se ainda não foi visitada
                 if (0 <= neighbor[0] < self.M.shape[0] and 0 <= neighbor[1] < self.M.shape[1] and
                     self.is_free(neighbor) and neighbor not in visited):
                     
